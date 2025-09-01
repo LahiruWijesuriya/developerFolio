@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:claudecodecommands.directory)",
+      "WebFetch(domain:claudecodecommands.directory)",
+      "WebFetch(domain:github.com)",
+      "Bash(git init:*)",
+      "Bash(npx @playwright/mcp@latest:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run lint)",
+      "Bash(npm run dev:*)",
+      "Bash(npm install)",
+      "Bash(npm rebuild:*)",
+      "Bash(npx vite:*)",
+      "Bash(npm ls:*)",
+      "Bash(node:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(npx playwright install:*)",
+      "Bash(ss:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(sudo apt-get:*)",
+      "Bash(sudo apt-get install:*)",
+      "Bash(apt list:*)",
+      "Bash(npx playwright test:*)",
+      "Bash(tree:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "/mnt/c/Users/lwijesuriya/OneDrive - Wenco International Mining Systems/Pictures"
+    ]
+  }
+}
